@@ -1,0 +1,161 @@
+@media screen and (max-width: 360px){
+    .header-container , .content-container , .service-container , .about-container , .contact-container, .contact-container{
+            margin: 0 15px;
+    }
+    .header-section{
+        min-height: 40vh;
+    }
+    .logo , .nav-menu{
+        display: block;
+        float: none;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .nav-menu ul li{
+        display: block;
+        margin: 10px 0;
+    }
+    .nav-menu ul li:hover{
+        background-color: rgba(31, 31, 31, 0.664);
+    }
+    .nav-menu ul li a:hover{
+        border: none;
+    }
+    .logo{
+        text-align: left;
+    }
+    .logo a{
+        text-align: left;
+        font-size: 20px;
+    }
+    .card-service , .card{
+        flex-direction: column;
+    }
+    .card{
+        width: 12rem;
+    }
+    .card img{
+        width: 10rem;
+    }
+    .header-menu{
+        position: sticky;
+    }
+    .menu-icon{
+        display: inline-block;
+        float: right;
+        margin-top: -20px;
+    }
+    .menu-icon i{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .nav-menu{
+        margin-top: 20px;
+        display: none;
+    }
+    .content-writting{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .content-writting h1{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .content-writting p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .content-writting button{
+        width: 40%;
+        padding: 10px 0;
+        margin-right: 28px;
+        font-size: 15px;
+    }
+    .wave{
+        position: relative;
+        bottom: -10px;
+    }
+    .serivces , .about{
+        text-align: center;
+        font-size: 15px;
+    }
+    .about{
+        padding: 10px 0;
+    }
+    .card-service{
+        margin: 5px 0;
+        flex-direction: column;
+    }
+    .card{
+        width: 15rem;
+        margin: 20px 50px;
+    }
+    .card h1{
+        font-size: 20px;
+    }
+    .card p{
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    .card img{
+        width: 10rem;
+    }
+    .about-container p{
+        font-size: 15px;
+    }
+    #contact-section h1{
+        font-size: 20px;
+        top: 1px;
+        margin: 0 15px;
+        text-align: center;
+    }
+    .contact{
+        margin-top: 80px;
+        display: block;
+    }
+    .phn-email{
+        width: 100%;
+    }
+    .contact .phn-email{
+        margin-top: 100px;
+    }
+    .contact .phn-email p{
+        display: block;
+        font-size: 15px;
+    }
+    .social{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .social ul{
+        margin-top: 0px;
+    }
+    .social ul li{
+        font-size: 20px;
+        margin: 0 15px;
+        padding: 10px 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    .card-service{
+        margin: 5px 0;
+        flex-direction: row;
+    }
+    .card{
+        width: 20rem;
+        margin: 20px 50px;
+    }
+   
+    .card p{
+        margin: 5px 10px;
+    }
+    .card img{
+        width: 10rem;
+    }
+}
+@media screen and (min-width: 1500px){
+    
+}

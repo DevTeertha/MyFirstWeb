@@ -1,13 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h2>Hi</h2>
+    <section id="header-section" class="header-section">
+        <div class="header-menu">
+            <div class="header-container">
+                <div class="nav-bar">
+                    <div class="logo">
+                        <a href="#header-section">DevOps</a>
+                    </div>
+                    <div onclick="menu()" class="menu-icon">
+                        <i id="fa-bars" class="fas fa-bars"></i>
+                    </div>
+                    <div id="nav-menu" class="nav-menu">
+                        <ul>
+                            <li><a href="#header-section">Home</a></li>
+                            <li><a href="#service-section">Services</a></li>
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#contact-section">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-container">
+                <div class="content-writting">
+                    <h1>Test is the better experience</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit ipsa, dicta aliquam earum
+                        quaerat autem. Pariatur alias repellendus tenetur doloremque accusamus fugiat, incidunt vitae,
+                        mollitia dicta, ratione sequi cumque...</p>
+                    <button class="btn-join">Join</button>
+                    <button class="btn-seemore">See More</button>
+                </div>
+            </div>
+        </div>
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="whitesmoke" fill-opacity="1"
+                d="M0,96L60,117.3C120,139,240,181,360,181.3C480,181,600,139,720,128C840,117,960,139,1080,165.3C1200,192,1320,224,1380,240L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <section id="service-section">
+        <div class="service-container">
+            <div class="serivces">
+                <h1 style="color: rgb(37, 37, 37);">Services</h1>
+            </div>
+            <div class="card-service">
+                <div class="card c1">
+                    <img src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859"
+                        alt="">
+                    <h1 style="color: black;">John Soe</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit voluptas dolores, quia tempora
+                        error voluptate animi dignissimos nesciunt nisi voluptatum omnis minima at dolorum asperiores
+                        architecto quisquam, non atque doloribus.</p>
+                    <div class="card-hover"></div>
+                </div>
+                <div class="card c1">
+                    <img src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859"
+                        alt="">
+                    <h1 style="color: black;">John Soe</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit voluptas dolores, quia tempora
+                        error voluptate animi dignissimos nesciunt nisi voluptatum omnis minima at dolorum asperiores
+                        architecto quisquam, non atque doloribus.</p>
+                </div>
+                <div class="card c1">
+                    <img src="https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859"
+                        alt="">
+                    <h1 style="color: black;">John Soe</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit voluptas dolores, quia tempora
+                        error voluptate animi dignissimos nesciunt nisi voluptatum omnis minima at dolorum asperiores
+                        architecto quisquam, non atque doloribus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="about-section">
+        <div class="about-container">
+            <div class="about">
+                <h1 style="color: rgb(37, 37, 37);">About</h1>
+                <p style="color: grey;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam, nam repellendus aperiam ex, nostrum provident ab modi praesentium adipisci distinctio odit
+                    error, obcaecati culpa in a laudantium saepe repudiandae? Inventore nihil iste laudantium in
+                    quibusdam, officia voluptate impedit? Deserunt consectetur nobis dicta unde tempora nisi eveniet
+                    itaque totam, obcaecati, nostrum, omnis inventore. Provident quod error vero ducimus modi
+                    praesentium, natus libero rem culpa accusantium quidem iusto soluta asperiores tenetur quo, illo
+                    odit vel tempore unde! Perspiciatis recusandae incidunt voluptas odit atque numquam ut aspernatur
+                    corrupti, deserunt facilis quos dolor modi debitis nostrum qui, tenetur nisi nesciunt. Velit
+                    accusamus a necessitatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                    excepturi eaque odio blanditiis? Quae velit adipisci ipsam, voluptatum nulla doloremque temporibus
+                    soluta a nostrum quod corporis at pariatur numquam id? Quaerat provident eligendi cumque corrupti
+                    corporis numquam nemo nihil sequi laboriosam ratione fugit consectetur iusto aliquid, ex libero at
+                    nostrum nesciunt magni fuga excepturi recusandae dolores debitis deleniti pariatur? Sapiente maiores
+                    aliquid natus dolorum ratione officia commodi dolorem accusantium, sunt tenetur! Harum quibusdam
+                    incidunt, fugiat id placeat voluptates repudiandae beatae, maxime fuga quam tenetur quisquam esse
+                    molestiae ab distinctio. Laudantium mollitia beatae consectetur labore reprehenderit magnam ducimus
+                    nemo placeat nobis temporibus obcaecati consequuntur voluptates molestiae, odio eaque magni deleniti
+                    sed quibusdam blanditiis. Enim a praesentium assumenda! Ipsa error doloremque nobis deleniti nisi
+                    beatae saepe. Laboriosam, cumque tempore totam voluptate quis animi id iusto quisquam nihil deleniti
+                    explicabo! Repellat eligendi possimus magni voluptatum, id, consectetur odit nobis blanditiis
+                    voluptates ipsam sunt doloremque natus libero? Recusandae accusamus aliquid iure error nemo ab
+                    omnis, alias, perspiciatis nam totam et magnam obcaecati nihil ratione, dolorem nostrum repellendus
+                    laboriosam sint? Esse eaque dolore recusandae! Itaque molestiae, aliquam voluptates ullam enim
+                    voluptatibus. Consectetur nisi, rerum repudiandae eius esse repellendus modi cumque asperiores
+                    inventore, hic quos sapiente, error veritatis nesciunt provident quam nobis vero harum aut enim.
+                    Aspernatur commodi laborum numquam cum, debitis accusamus provident, molestiae error magnam iusto,
+                    quas deserunt voluptates! Debitis, alias? Est, praesentium. Vero qui sint corrupti perferendis
+                    corporis deserunt iure, cupiditate, dolorem repudiandae cumque dolorum impedit animi, ea amet in!
+                    Incidunt porro, labore nostrum perspiciatis numquam quas quidem mollitia dolores sit tenetur
+                    voluptatem architecto voluptate eveniet similique magnam. Quam nihil exercitationem debitis! Aliquam
+                    ea neque amet architecto voluptatem doloribus vitae? Pariatur expedita eveniet culpa laboriosam
+                    quibusdam! Voluptatem quasi fugit molestiae assumenda, maiores aliquam esse autem at dolore. Ipsum
+                    sit quia molestias eaque odit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+            
+        <svg class="foot-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="whitesmoke" fill-opacity="1"
+                d="M0,96L48,101.3C96,107,192,117,288,138.7C384,160,480,192,576,224C672,256,768,288,864,277.3C960,267,1056,213,1152,197.3C1248,181,1344,203,1392,213.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        
+        </svg>
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <div class="contact">
+                <div class="phn-email">
+                    <p><b>Mobile:</b> +8801111111111</p>
+                    
+                    <p><b>Email:</b> abdc@gmail.com</p>
+                </div>
+                
+                <div class="social">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Copyright &copy; By Dev Teertha</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>

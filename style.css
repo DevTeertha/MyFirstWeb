@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.header-section{
+    background-color: #0099ff;
+    background-position: center;
+    background-size: cover;
+    min-height: 94vh;
+    width: 100%;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+.header-menu{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #0099ff;
+    box-shadow: -1px 0.2px 3px black;
+    z-index: 2;
+}
+.header-container{
+    margin: 0 50px;
+}
+.logo , .nav-menu{
+    display: inline;
+}
+.menu-icon{
+    display: none;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nav-menu{
+    float: right;
+    display: inline;
+    margin-top: 10px;
+    
+}
+.nav-menu ul li{
+    padding: 6px;
+    display: inline;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.8s;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.wave{
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+.content-container{
+    margin: 0 50px;
+    font-size: 35px;
+}
+.content-writting{
+    width: 750px;
+    margin-top: 180px;
+}
+.content-writting h1{
+    padding-bottom: 30px;
+}
+.content-writting p {
+    font-size: 30px;
+}
+.content-writting button {
+    color: whitesmoke;
+    width: 150px;
+    padding: 15px 0;
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #003e68;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.content-writting button:hover{
+    background-color: #006ab1;
+    border: none;
+}
+#service-section{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.service-container{
+    margin: 70px 50px;
+}
+.serivces , .about{
+    text-align: center;
+    font-size: 30px;
+}
+.card-service{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    background-color: #9ea5aa;
+    box-shadow: -5px 5px 20px grey;
+}
+.card h1{
+    font-size: 30px;
+    color: gray;
+}
+.card p{
+    margin: 10px 20px;
+    text-align: justify;
+    color: black;
+}
+.card img{
+    margin: 10px 0;
+    width: 20rem;
+    border-radius: 50%;
+}
+.card-hover{
+    width: 100%;
+    background-color: black;
+}
+#about-section{
+    background-color: whitesmoke;
+}
+.about-container{
+    margin: 0px 50px;
+    padding: 20px;
+}
+.about-container p {
+    margin-top: 15px;
+    text-align: justify;
+    
+}
+.about p{
+    font-size: 20px;
+}
+.about{
+    padding: 50px 0;
+}
+#contact-section{
+    background-color: #0099ff;
+}
+.contact-container{
+    margin: 0 50px;
+}
+.contact{
+    position: relative;
+    padding: 0px 0;
+    top: -65px;
+    display: flex;
+}
+#contact-section h1{
+    position: relative;
+    top: -100px;
+    margin: 0 50px;
+    font-size: 30px;
+}
+.phn-email{
+    width: 40%;
+}
+.contact .phn-email p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.social{
+    margin-left: 260px;
+    width: 40%;
+    display: block;
+    margin-top: 10px;
+}
+.social h1{
+    position: absolute;
+    top: 1330px;
+    color: black;
+}
+.social ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.social ul li{
+    display: inline;
+    font-size: 40px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.social ul li:hover{
+    background-color: rgb(0, 13, 31);
+}
+.footer p{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav-bar i{
+    display: none;
+}
